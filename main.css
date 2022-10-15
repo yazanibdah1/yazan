@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Dancing+Script:wght@400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style-type:none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+.heder{
+    background-image: url("../img/animated-monstera-f253b9.netlify.app_files/shutterstock_277750193.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align:center; 
+    position: relative;
+   
+    
+}
+
+.navbar{
+    overflow: auto;
+    padding-top: 3px;
+}
+
+.navbar .logo{
+
+    float: left;
+    width: 40%; 
+  
+}
+.navbar .logo img{
+    width: 30%;
+    padding-top: 4%;
+}
+.navbar .nav{
+     float: left;
+    width: 60%; 
+  padding-left: 150%;
+ 
+
+    
+}
+ 
+.hederconct{
+    padding-top: 240px;
+    color: #fff;
+    font-family: 'Alegreya',serif;
+    
+} 
+.list{
+    display: inline-block;
+    
+}
+
+.overlay{
+    background-color: argb(0,0,0,.5);
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+.navbar .nav .list a{
+    color: #fff;
+    font-size: 13px;
+    margin-right: 8px;
+}
+.hederconct p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.hederconct h1{
+    font-size: 60px;
+}
+.hederconct button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+}
+.hederconct .buttom1:hover{
+    background-color:#fff;
+   color: black;
+   cursor: pointer;
+}
+.hederconct .buttom1{
+    background-color: #c1ab84;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.contener{
+    width: 70%;
+    margin: auto;
+}
+/* .about{
+    padding-top: 15%;
+} */
+
+.aboutimg img{
+    width: 100%;
+}
+
+.aboutimg{
+    float:left;
+    width: 40%;
+}
+.aboutcont{
+    float: left;
+    width: 60%;
+    text-align: center;
+    padding-top:  100px;
+    
+}
+.aboutcont h2{
+    color: #253048;
+    font-size: 33px;
+    font-weight: 400px;
+}
+
+.aboutcont h3{
+    color: #c1ab84;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutcont p{
+    width: 76%;
+    text-align: left;
+    margin: auto;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+.aboutcont ul li{
+    width: 76%;
+    text-align: left;
+    margin: auto;
+
+}
+.aboutcont ul li i{
+    background-color: #c1ab84;
+    width: 60px;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+
+.aboutcont ul li span{
+    margin-left: 25px;
+}
+
+.reviewars , .location{
+    background-color: #f8f8f8;
+     padding: 70px;
+  
+}
+/* .revimg{
+    width: 100%;
+} */
+
+.reviewars img ,.locware{
+    width: 100%;
+}
+.revdes, .locware{
+    float: left;
+    width: 60%;
+}
+
+.revimg, .locware{
+    float: left;
+    width: 40%;
+}
+.revdes h4, .locware h4{
+    color: #253048;
+    font-size: 40px;
+    margin-bottom: 20px;
+}.revdes h5 {
+    color: #c1ab84;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+.revdes p .locware p{
+    width: 70%;
+    margin-bottom: 20px;
+    
+}
+.revdes i, .locware i{
+    color: #c1ab84;
+    margin-bottom: 20px;
+    margin-inline: 20px;
+    margin-left: auto;
+}
+.revdes span,.locware span{
+    font-size: 20px;
+}
+
+.cover{
+    background-image: url("../img/animated-monstera-f253b9.netlify.app_files/g0.jpg");
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contener h3{
+    color: #c1ab84;
+    font-family:'Dancing Script', cursive; 
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.contener h3:hover{
+    color: #253048;
+}
+
+.Menu{
+    text-align: center;
+    width: 100%;
+}
+
+.mnueimg .item{
+    float: left;
+    width: 33.3%;
+}
+.mnueimg img{
+    width: 80%;
+}
+.item:hover {
+   color: indigo;
+   cursor: pointer;
+
+}
+ .bum{
+    text-align: center;
+   padding: 10px;
+   background-color: #c1ab84;
+   color: #fff;
+   margin: 30px;
+
+}
+
+.bum:hover{
+    cursor: pointer;
+    color: #253048;
+}
+
+
+.locware ul li i{
+    background-color: #c1ab84;
+    width: 60px;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+    
+}
